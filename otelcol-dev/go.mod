@@ -2,9 +2,7 @@
 
 module go.opentelemetry.io/collector/cmd/builder
 
-go 1.23.0
-
-toolchain go1.23.4
+go 1.24.0
 
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/aesprovider v0.121.0
@@ -513,7 +511,7 @@ require (
 	github.com/getsentry/sentry-go v0.31.1 // indirect
 	github.com/go-faster/city v1.0.1 // indirect
 	github.com/go-faster/errors v0.7.1 // indirect
-	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
 	github.com/go-kit/kit v0.12.0 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
